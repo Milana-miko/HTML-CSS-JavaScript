@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+   /*flex-direction: column;*/
+   /* flex-direction: row-reverse;*/
+    /*align-items: flex-end; */
+   /*  flex-wrap: wrap;*/
+    align-content: space-between;
+    padding: 0;
+   
+}
+
+img{
+    width:9%;
+    height: 15%; 
+    
+    margin:0.05%;
+    flex-basis: 150px;
+   flex-grow: 1;
+}
+
+*{ background-color: #c4f3f0;}
+
+.image4{
+    flex-grow: 5;
+    flex-shrink: 10;
+}

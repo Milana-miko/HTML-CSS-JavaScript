@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order for customer</title>
+    <link rel="stylesheet" href="css/order_style.css" type="text/css">
+</head>
+
+<body>
+     <img src="images/logo1.png">
+
+     <h2>Уважаемый заказчик!</h2>
+    
+<p> Торты на заказ от 40 минут с доставкой по Москве и Московской области. В цену торта все включено. Скидки на заказ торта до 60% - торт выходит недорого. Более 2500 вариантов дизайна и декора. Также сможем сделать по вашему эскизу, а вы потом купить торт. На ночной заказ предоставляем скидку 20% от конечной цены. Мы - первая федеральная кондитерская фабрика ТортоФФ в 15 городах России. Ждём Ваших заказов тортов!</p>
+    
+    <form action="#" method="post" autocomplete="on">
+        <fieldset id="tab">
+            <legend> <h3 style="color: maroon">Данные заказчика</h3></legend>
+            <img src="../forms_lists/images/img1.jpg" class="image">
+            <label for="name"> Введите Ваше имя</label>
+            <input id="name" type="text" placeholder="Например,  Анна" required maxlength="10" minlength="2" autocomplete="on"> <br><br>
+
+            <label for="surname"> Введите Вашу фамилию</label>
+            <input id="surname" type="text" placeholder="Например, Акопян" required maxlength="10" minlength="2" autocomplete="on"><br><br>
+
+            <label for="patronymic"> Введите Ваше отчество</label>
+            <input id="patronymic" type="text" placeholder="Например, Каренович/Кареновна" required maxlength="20" minlength="2" autocomplete="on"><br><br>
+
+            <label fot="#"> Введите номер телефона </label>
+            <input type="tel" placeholder="+374 98 56 77 22"><br><br>
+
+            <label for="#">Введите email </label>
+            <input type="email" required placeholder="mmm45@mail.ru"> <br><br>
+
+
+            <label for="#">Выберите способ доставки </label> <br>
+            <input id="delivery" type="checkbox" required>
+            <label for="delivery">Доставка</label><br>
+
+            <input id="From the store" type="checkbox" required>
+            <label for="From the store">Из магазина</label><br><br>
+
+            <label for="#">Выберите способ оплаты </label> <br>
+            <input id="cash" type="radio" required>
+            <label for="cash">Наличными</label><br>
+
+            <input id="payment by card" type="radio" required>
+            <label for="payment by card">Оплата картой</label>
+            <br><br>
+
+            <label for="#">Введите дату доставки</label>
+            <input type="date" name="" id=""> <br><br>
+
+            <input type="submit">
+
+        </fieldset>
+
+
+    </form>
+
+
+
+</body>
+
+
+</html>

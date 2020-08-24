@@ -1,0 +1,80 @@
+body {
+    background-image: url(../images/fon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: oldlace;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial;
+}
+
+h3 {
+    color: darkred;
+    background-color: khaki;
+}
+
+div{
+    width: 98%; 
+    height: 80%; 
+    background-color: wheat;
+    text-align: center;
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+#welcome{
+    color:maroon;
+}
+
+.tel{
+    color: sienna;
+    font-size: 20px;
+    line-height: 2px;
+        
+}
+
+table{
+     border:2px solid black;
+   border-spacing: 1px solid black;
+        width:80%;
+      font-family: sans-serif;
+    background:#e0b983;
+    
+}
+
+a{
+    color:salmon;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    padding: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+img{
+    float:left;
+    padding-right: 30px;
+}
+
+h2{
+    text-align: center;
+    color: chocolate;
+}
+
+.image{
+    float:right;
+    width: 30%;
+    height: 30%;
+    padding-right: 10%;
+    
+}
+
+.p1{
+   margin-right: 610px;
+     padding-right: 30px;
+   
+}
+

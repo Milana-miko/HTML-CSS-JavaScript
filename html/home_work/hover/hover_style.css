@@ -1,0 +1,65 @@
+h1:hover{
+    background-color: antiquewhite;
+}
+
+a:link {
+  color: navy;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+   }
+
+a:active {
+  color: yellow;
+} 
+
+a.ex1:hover, a.ex1:active {font-size: 150%;}
+
+a.ex2:hover, a.ex2:active {background: blueviolet;}
+
+a.ex3:hover, a.ex3:active {font-family: monospace;}
+
+a.ex4:visited, a.ex4:link {text-decoration: none;}
+a.ex4:hover, a.ex4:active {text-decoration: underline;}
+
+.name{
+    background-color: darkgray;
+    padding: 15px;
+    display: none;
+}
+
+span:hover + div{
+    display: block;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: yellow;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  }
+ul li ul li { 
+  background: darkseagreen; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}

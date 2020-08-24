@@ -1,0 +1,17 @@
+table{
+     border:1px solid black;
+    border-collapse: collapse;
+    width:80%;
+   align-content: center;
+    font-family: sans-serif;
+    background:#e0b983;
+}
+
+a{
+    color:salmon;
+    font-size: 20px;
+}
+
+#welcome{
+    color:darkred;
+}

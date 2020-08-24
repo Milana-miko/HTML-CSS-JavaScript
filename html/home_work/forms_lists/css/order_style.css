@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+     background-image: url(../images/fon2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+h2{
+    text-align: center;
+    color: chocolate;
+     text-transform: uppercase;
+}
+
+img{
+    float: left;
+    
+}
+
+.image{
+   float:right;
+    width: 200px;
+    height: 200px;
+    padding-right: 10%;
+    object-fit: cover;
+}
+
+p{
+    margin: 15px;
+    margin-left: 600px;
+    text-indent: 30px;
+     text-align: justify; 
+    margin-right: 250px;
+}
+
+#tab{
+    float:left;
+   margin-left: 30%;
+}
+

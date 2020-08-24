@@ -1,0 +1,45 @@
+h1,h2,h3{
+    text-align: center;
+    text-transform: uppercase;}
+
+p{
+    position:relative;
+    left: 3%;
+     width: 97%;   
+    text-align: justify;
+    text-indent: 30px;
+
+}
+
+img{
+    position: relative;
+    width: 200px;
+    height: 200ps;
+    left:45%;
+}
+
+a{
+    position: relative;
+    left:3%;
+}
+
+h1{
+    background-color: bisque;
+    margin-top: 0;
+    color:brown;
+}
+
+h2{
+   
+    color:coral;
+}
+
+button{
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+big{
+     position: relative;
+    left:47%;
+}
