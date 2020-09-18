@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="stilesSimpleCalculator.css">
+    <script src="scriptSimpleCalculator.js"> </script>
+</head>
+
+<body>
+<form>
+    <input type="text" id="n1" placeholder="Please, input number" maxlength="10"> <br> <br>
+    <input type="text" id="n2" placeholder="Please, input number" maxlength="10"> <br> <br>
+
+    <!--<button id="plus" onclick="funcPlus()">+</button>
+    <button id="minus" onclick="funcMinus()">-</button> <br> <hr>
+    <p id="out">Result </p>-->
+
+    <select id="oper">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+    </select>
+    <button onclick="calculator()">=</button>
+    <input type="text" id="result">
+
+
+</form>
+
+</body>
+
+</html>

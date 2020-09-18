@@ -1,0 +1,20 @@
+* {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+#n1, #n2 {
+    background-color: #add1d1;
+}
+
+#result {
+    background-color: #a7e7dc;
+}
+
+#oper {
+    background-color: #f1f5a8;
+}
+
+button {
+    background-color: #e4ff4a;
+}
