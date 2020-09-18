@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesCalculator2.css">
+    <script src="scriptCalculator2.js"> </script>
+</head>
+
+<body>
+    <form name="calculator">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" id="view" name="display" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="item" name="clear" value="C" onclick="clean()">
+                    <input type="button" class="item" name="backs" value="back" onclick="backFunction()">
+                    <input type="button" class="item" name="bracket1" value="(" onclick="input('(')">
+                    <input type="button" class="item" name="bracket1" value=")" onclick="input(')')">
+                </td>
+            </tr>
+            <!--<tr class="c1">
+                <td>
+                    <input type="button" class="item" name="clear" value="C" onclick="clean()">
+                </td>
+            </tr>
+            <tr class="c1">
+                <td>
+                    <input type="button" class="item" name="backs" value="back" onclick="backFunction()">
+                </td>
+            </tr>
+            <tr class="c1">
+                <td>
+                    <input type="button" class="item" name="bracket1" value="(" onclick="input('(')">
+                </td>
+            </tr>
+            <tr class="c1">
+                <td>
+                    <input type="button" class="item" name="bracket2" value=")" onclick="input(')')">
+                </td>
+            </tr>-->
+            <tr>
+                <td>
+                    <input type="button" class="item" name="seven" value="7" onclick="input('7')">
+                    <input type="button" class="item" name="eight" value="8" onclick="input('8')">
+                    <input type="button" class="item" name="nine" value="9" onclick="input('9')">
+                    <input type="button" class="item" name="plus" value="+" onclick="input('+')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="item" name="four" value="4" onclick="input('4')">
+                    <input type="button" class="item" name="five" value="5" onclick="input('5')">
+                    <input type="button" class="item" name="six" value="6" onclick="input('6')">
+                    <input type="button" class="item" name="minus" value="-" onclick="input('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="item" name="one" value="1" onclick="input('1')">
+                    <input type="button" class="item" name="two" value="2" onclick="input('2')">
+                    <input type="button" class="item" name="three" value="3" onclick="input('3')">
+                    <input type="button" class="item" name="multiply" value="*" onclick="input('*')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="item" name="zero" value="0" onclick="input('0')">
+                    <input type="button" class="item" name="dot" value="." onclick="input('.')">
+                    <input type="button" class="item" name="divide" value="/" onclick="input('/')">
+                    <input type="button" class="item" name="eq" value="=" onclick="equal()">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+* {
+    background: lightgray;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#colorRed {
+    background-color: red;
+}
+
+#colorYellow {
+    background-color: #fff20d;
+}
+
+#colorGreen {
+    background-color: green;
+}
+
